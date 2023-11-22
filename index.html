@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Verificador de Tráfego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<center><a href="#nomes" id="a1">INTEGRANTES</a></center>
+    <div class="a1">
+        <a href="#usar" id="a1">COMO USAR</a>
+        <div class="titulo" >Verificador de Tráfego</div>
+        <a href="#verificar" id="a1">VERIFICAR</a>
+    </div>
+    
+    <div class="eu">
+
+
+       <div class="texto">
+            <p><strong><u>BOM DIA!</u></strong></p>
+            <p>Esse é um verificador de tráfego, o qual você poderá usá-lo para saber quando pode e quando náo pode
+                rodar pela cidade com o seu veiculo.</p>
+            <p>use com moderação!</p>
+        </div>
+
+
+        <div class="texto2">
+            <p><strong><u>O QUE É:</u></strong></p>
+            O Programa de Restrição ao Trânsito de Veículos Automotores no Município de São Paulo, popularmente
+            conhecido como rodízio SP, foi implantado com o objetivo de reduzir a circulação de veículos na cidade e,
+            com isso, diminuir as condições adversas de trânsito.
+        </div>
+    </div>
+
+    <div class="linha">Confira na tabela abaixo todas as placas proibidas de circular por dia, sujeitas a multa de
+        rodízio:
+    </div>
+
+   <center><img src="imagens/download.png" alt="rodizio"></center>
+
+    <p></p>
+
+    <div id="usar" class="usar">
+       <p style="text-align: center;"><strong><u>COMO USAR:</u></strong>
+            <br>-Digite o final da sua placa;
+            <br>-Insira o dia da semana.
+        </p>
+    </div>
+
+    <p></p>
+
+
+    <div id="verificar" class="d">
+        <center><label for="finalPlaca"><strong><br>Final da Placa:</strong></label>
+        <input type="number" placeholder="ultimo número" id="finalPlaca" min="0" max="1">
+
+
+        <p></p>
+        <label for="diaSemana"><strong>Dia da Semana:</strong></label>
+        <select id="diaSemana">
+            <option value="Segunda-feira">Segunda-feira</option>
+            <option value="Terça-feira">Terça-feira</option>
+            <option value="Quarta-feira">Quarta-feira</option>
+            <option value="Quinta-feira">Quinta-feira</option>
+            <option value="Sexta-feira">Sexta-feira</option>
+        </select><br>
+        </center>
+        <p></p>
+            <br>
+            <h2 id="gg"></h2>
+
+  
+        <center><button onclick="verificarPermissao()" >Verificar Permissão</button></center>
+    </div>
+
+
+   <div id="nomes" class="integrantes"><center><br>INTEGRANTES:
+<p>-Giovana Cristina;</p>
+<P>-Pedro Henrique.</P>
+<p><strong><u>Obrigado por usar o nosso site!</u></strong></p></center>
+
+    </div>
+
+
+       <center><img src="imagens/fuscao.gif" alt="carro" style="height: 300px;"></center>
+
+
+        <script src="main.js"></script>
+
+</body>
+
+</html>
